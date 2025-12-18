@@ -1,0 +1,93 @@
+/* body {
+    background-image: url('/img/背景.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: transparent;
+} */
+
+.content {
+    font-size: 30px
+}
+
+
+.hero h1 {
+    color: aqua;
+}
+
+/* 首页标签列表样式 */
+.abstract-item {
+    background-color: #d3faea3d !important;
+    transition: all .5s;
+}
+
+.abstract-item:hover {
+    transform: scale(1.02);
+    transition: all .5s;
+}
+
+/* 右侧文章标题导航栏 */
+a.sidebar-link {
+    font-size: 15px !important;
+}
+
+/* 时间线样式 */
+.timeline-wrapper .year {
+    margin: 80px 0px 20px !important;
+    font-size: 27px !important;
+}
+
+.timeline-wrapper .year-wrapper li {
+    padding: 10px 20px 10px !important;
+    border-bottom: 2px solid #999da06b !important;
+    background: #c1c1e626;
+    border-radius: 5rem;
+    margin: 5px 0px;
+    transition: all .5s;
+}
+
+.timeline-wrapper .year-wrapper li:hover {
+    transform: translate(50px, 0);
+    transition: all .5s;
+}
+
+.timeline-wrapper .year-wrapper li .date {
+    width: 43px !important;
+    font-size: 13px !important;
+}
+
+.timeline-wrapper .year-wrapper li .date:before {
+    top: 22px !important;
+    border: 1px solid !important;
+}
+
+.timeline-wrapper:after {
+    background: skyblue !important;
+}
+
+.timeline-wrapper .desc:before, .timeline-wrapper .year:before {
+    background: cadetblue !important;
+}
+
+/* 修改滚动条的宽度 */
+::-webkit-scrollbar {
+    width: 8px !important; /* 纵向滚动条的宽度 */
+    height: 12px !important; /* 横向滚动条的高度 */
+}
+
+/* 滚动条轨道部分 */
+::-webkit-scrollbar-track {
+    background-color: #f0f0f0 !important;
+    border-radius: 10px !important;
+}
+
+/* 滚动条滑块部分 */
+::-webkit-scrollbar-thumb {
+    background-color: #ffc0cb !important;
+    border-radius: 10px !important;
+}
+
+/* 鼠标悬停在滑块上时 */
+::-webkit-scrollbar-thumb:hover {
+    background-color: #fdadbb !important;
+}
