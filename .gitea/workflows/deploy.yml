@@ -5,7 +5,7 @@ jobs:
     runs-on: lds      # 关键：匹配Runner的标签（注册时指定的--labels）
     steps:
       - name: Checkout   # 自定义，如Checkout代码
-        uses: http://192.168.191.5:3000/lds/checkout.git  # 使用官方Action（Gitea自动拉取兼容的Action）
+        uses: http://192.168.191.5:3000/lds/checkout@main  # 使用官方Action（Gitea自动拉取兼容的Action）
       - name: 执行shell命令   # 自定义，如执行shell命令
         run: |           # 执行自定义命令（支持多行吗）
           echo "Hello Gitea Actions!"
